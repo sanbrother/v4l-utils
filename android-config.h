@@ -114,6 +114,10 @@
 /* Version number of package */
 #define VERSION "1.1.0"
 
+#ifndef __force
+#define __force
+#endif
+
 /* Define to `int' if <sys/types.h> does not define. */
 /* #undef mode_t */
 

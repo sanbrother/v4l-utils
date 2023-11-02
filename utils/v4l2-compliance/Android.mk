@@ -15,7 +15,7 @@ LOCAL_C_INCLUDES := \
     bionic \
     external/stlport/stlport
 
-LOCAL_SHARED_LIBRARIES := libstlport
+COMMON_SHARED_LIBRARIES := libstlport
 
 LOCAL_SRC_FILES := \
     v4l2-compliance.cpp v4l2-test-debug.cpp v4l2-test-input-output.cpp \

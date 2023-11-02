@@ -8,11 +8,12 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/../.. \
     $(LOCAL_PATH)/../../include \
+    $(LOCAL_PATH)/../common \
     bionic \
     external/stlport/stlport
 
-LOCAL_SHARED_LIBRARIES := libstlport
+COMMON_SHARED_LIBRARIES := libstlport
 
-LOCAL_SRC_FILES := v4l2-dbg.cpp
+LOCAL_SRC_FILES := v4l2-dbg.cpp v4l2-info.cpp
 
 include $(BUILD_EXECUTABLE)
