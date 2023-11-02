@@ -39,6 +39,7 @@ static constexpr struct {
 	enum media_type type;
 } media_types[] = {
 	{ "video", MEDIA_TYPE_VIDEO },
+	{ "video-dvr", MEDIA_TYPE_VIDEO },
 	{ "vbi", MEDIA_TYPE_VBI },
 	{ "radio", MEDIA_TYPE_RADIO },
 	{ "swradio", MEDIA_TYPE_SDR },
