@@ -40,6 +40,9 @@ static constexpr struct {
 } media_types[] = {
 	{ "video", MEDIA_TYPE_VIDEO },
 	{ "video-dvr", MEDIA_TYPE_VIDEO },
+	{ "video-dms", MEDIA_TYPE_VIDEO },
+	{ "video-ims", MEDIA_TYPE_VIDEO },
+	{ "video-avm", MEDIA_TYPE_VIDEO },
 	{ "vbi", MEDIA_TYPE_VBI },
 	{ "radio", MEDIA_TYPE_RADIO },
 	{ "swradio", MEDIA_TYPE_SDR },
